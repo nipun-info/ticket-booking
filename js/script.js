@@ -7,6 +7,10 @@ for (let seat of seatList) {
     seat.addEventListener('click', function (event) {
         const seatName = event.target.innerText;
 
+
+
+
+
         // set the background color
         const addBackground = event.target;
         addBackground.classList.add('bg-green')
@@ -70,7 +74,7 @@ for (let seat of seatList) {
         if (ticketPurchesCount > 4) {
             event.target.disabled = true;
             const removeBackground = event.target;
-            removeBackground.classList.remove('bg-green')
+            removeBackground.classList.remove('bg-green');
             return ticketPurchesCount;
         }
 
@@ -128,6 +132,8 @@ document.getElementById('continue-btn').addEventListener('click', function () {
     const element = document.getElementById("success-model");
     element.classList.add('hidden');
 });
+
+
 
 
 

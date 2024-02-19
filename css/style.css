@@ -19,10 +19,13 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.hero {
+/* .hero {
     background-image: url("../images/banner.png");
-    padding: 5rem 0;
-}
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0 20rem;
+} */
 
 .ticket-buy {
     background-color: #F7F8F8;
@@ -34,9 +37,13 @@ body {
 
 .seat-number {
     background-color: #EBECED;
-    padding: 8px 24px;
+    min-width: 80px;
+    padding: 8px;
     border-radius: 10px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #seat-purches-count {
