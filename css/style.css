@@ -15,6 +15,14 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.hero {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0;
+}
+
 .seat-number {
     background-color: #EBECED;
     min-width: 80px;
